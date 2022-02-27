@@ -1,0 +1,6 @@
+run batch_file1.txt
+add layer5
+undo
+export ppm file2
+hide layer5
+visible layer5

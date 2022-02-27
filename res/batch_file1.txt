@@ -1,0 +1,23 @@
+add layer1
+add layer2
+add layer3
+import ppm henrietta.ppm
+blur
+export png henrietta-blur
+hide layer1
+change current layer2
+import ppm dots.ppm
+sharpen
+export jpeg dots-sharpen
+sepia
+export png dots-sharpen-sepia
+greyscale
+export png dots-sharpen-greyscale
+newDir batch1save
+save batch1save
+load batch1save/layersLocation.layerlocat batch1save
+change current layer3
+generate checkerboard -1 -1 -1.0
+change name layer4
+visible layer1
+delete layer1
